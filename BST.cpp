@@ -53,7 +53,7 @@ void Postorder(Node* root){
 Node* Search(Node* root,int data){
   if(root->data == data || root == nullptr)
     return root;
-  else if(root->data >data)
+  else if(root->data > data)
     return Search(root->left,data);
   else
     return Search(root->right,data);
@@ -62,7 +62,8 @@ Node* Search(Node* root,int data){
 
 
 Node* Delete(Node* root,int data){
-
+  
+  
 
 }
 
